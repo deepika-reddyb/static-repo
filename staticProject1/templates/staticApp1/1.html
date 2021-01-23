@@ -1,0 +1,41 @@
+<html>
+<head>
+{% load static %}
+<title> Static view</title>
+<link rel="stylesheet" href="{%static "css/1.css"%}"/>
+<style>
+h1{
+color:red;
+}
+h2{
+color:blue;
+}
+</style>
+</head>
+
+<body bgcolor="yellow">
+<center><h1>{{name}}'s Favourites</h1></center>
+<div>
+<h2>Singer:{{singer}}</h2>
+<h3><a href="https://en.wikipedia.org/wiki/Justin_Bieber">Click here to know</a><h3>
+<img src="{% static "C:\Users\Deepika\Django\staticProject1\static\images\justin.jpg"%}">
+<div>
+<br>
+<div>
+<h2>Animal:{{animal}}</h2>
+<h3><a href="https://en.wikipedia.org/wiki/Siberian_Husky">Click here to know</a><h3>
+<img src="{% static "images/siberian.jpg"%}">
+<div>
+<br>
+<div>
+<h2>SUbject:{{subject}}</h2>
+<h3><a href="https://en.wikipedia.org/wiki/English_Wikipedias">Click here to know</a><h3>
+<img src="{% static "images/english.jpg"%}">
+<div>
+<br>
+
+</body>
+
+</html>
+
+ss
